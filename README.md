@@ -1,16 +1,36 @@
-## Hi there 👋
+# Hi there 👋 I'm Veet Moradiya
 
-<!--
-**veetmoradiya3628/veetmoradiya3628** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="left">
+  <img src="https://img.shields.io/badge/Status-Online-success?style=flat-square&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/Location-Bengaluru-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Role-Full--Stack%20Engineer-orange?style=flat-square" />
+</p>
 
-Here are some ideas to get you started:
+### ☁️ System Configuration (k8s-manifest.yaml)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```yaml
+apiVersion: v1
+kind: Developer
+metadata:
+  name: veet-moradiya
+  labels:
+    role: full-stack-engineer
+    specialization: cloud-enthusiast
+    location: bengaluru-in
+spec:
+  containers:
+  - name: main-stack
+    image: mern/spring-boot:latest
+    ports:
+    - containerPort: 3000 # React Frontend
+    - containerPort: 8080 # Spring Boot / Node Backend
+    - containerPort: 5000 # Socket.IO / Real-time
+    env:
+    - name: PASSION
+      value: "building-scalable-systems"
+    - name: CORE_TECH
+      value: "JavaScript, TypeScript, Java, Python"
+    - name: LEARNING_GOAL
+      value: "mastering-distributed-systems"
+    - name: CURRENT_STATUS
+      value: "busy-coding"
