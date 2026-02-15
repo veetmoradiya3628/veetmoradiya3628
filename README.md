@@ -22,14 +22,14 @@ spec:
   - name: main-stack
     image: mern/spring-boot:latest
     ports:
-    - containerPort: 3000 # React Frontend
-    - containerPort: 8080 # Spring Boot / Node Backend
+    - containerPort: 4200 # Angular Frontend
+    - containerPort: 8080 # Spring Boot / Go / Node Backend
     - containerPort: 5000 # Socket.IO / Real-time
     env:
     - name: PASSION
       value: "building-scalable-systems"
     - name: CORE_TECH
-      value: "JavaScript, TypeScript, Java, Python"
+      value: "JavaScript, TypeScript, Go, Java, Python"
     - name: LEARNING_GOAL
       value: "mastering-distributed-systems"
     - name: CURRENT_STATUS
